@@ -1,0 +1,11 @@
+name: cell
+channels:
+  - defaults
+dependencies:
+  - pip=10.0.1
+  - python=3.6.0
+  - pip:
+    - numpy==1.16.3
+    - matplotlib==2.0.0
+    - scikit-image==0.15
+    - opencv-python==3.4.2.17
